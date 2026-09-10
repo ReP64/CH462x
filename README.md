@@ -1,2 +1,2 @@
-CH462x display driver
+Library for CH462x display driver
 
