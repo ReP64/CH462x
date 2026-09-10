@@ -1,12 +1,22 @@
-blOn
-writeRam
-setSegment
-setKg
-clearDecimal
-setDecimal
-clearDigit
-writeSegment
-writeDigit
-encodeChar
-show
-beginFrame
+  begin();
+  blOn();
+  blOff();
+  clear();
+  allOn();
+  writeRam(uint8_t, uint8_t);
+  setSegment(uint8_t, uint8_t, bool);
+  setKg(bool = true);
+  setLb(bool = true);
+  setOz(bool = true);
+  setPCS(bool = true);
+  setPercent(bool = true);
+  setNet(bool = true);
+  setBattery(bool = true);
+  clearIndicators();
+  clearDecimals();
+  setDecimal(uint8_t, bool = true);
+  clearDigit(uint8_t);
+  writeDigit(uint8_t, uint8_t);
+  writeSegments(uint8_t, uint8_t);
+  encodeChar(char);
+  show(const char*);
