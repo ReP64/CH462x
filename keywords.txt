@@ -1,1 +1,12 @@
-
+blOn
+writeRam
+setSegment
+setKg
+clearDecimal
+setDecimal
+clearDigit
+writeSegment
+writeDigit
+encodeChar
+show
+beginFrame
